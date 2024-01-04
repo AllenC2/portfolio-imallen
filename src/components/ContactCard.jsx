@@ -32,7 +32,7 @@ export function ContactCard(){
     }, []);
 
     return(
-    <div className="px-6">
+    <div className="px-4">
         <h1 className="text-4xl font-bold text-center">
           Hi, I'm Allen
         </h1>

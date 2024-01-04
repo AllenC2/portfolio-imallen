@@ -6,12 +6,9 @@ import { MoonIcon } from '../assets/icons/MoonIcon';
 
 export default function NavBar (){
 
-
     const toggleDarkMode = ()=>{
         document.documentElement.classList.toggle("dark");
     }
-
-    
     
     const [mode, setMode] = useState('light');
 
@@ -41,7 +38,7 @@ export default function NavBar (){
 
     return(
         <div className=" w-full z-10">
-            <div className="max-w-screen-xl px-8 mx-auto lg:pb-24 ">
+            <div className="max-w-screen-xl px-4 mx-auto lg:pb-24 ">
                 <div className="grid grid-cols-4 mx-auto mt-2 py-2 w-full">
                     <div className="flex items-center col-span-1">
                         <AlienIcon color={mode === 'dark' ? '#fcf8fc' : '#282727'} clases="drop-shadow-azulito" height="20" />

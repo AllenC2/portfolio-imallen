@@ -5,9 +5,10 @@ export  function AccordionJobs(){
     const [openAccordion, setOpenAccordion] = useState(null);
     const handleClick = (index) => {
         setOpenAccordion(openAccordion === index ? null : index);
-      };
+    };
     return(
         <>
+            {/* DISEÑADOR WEB FREELANCE */}
             <Accordion
             title="Diseñador Web"
             lugar="Freelance Autónomo - Guadalajara, Jal."
@@ -25,6 +26,7 @@ export  function AccordionJobs(){
             </ul>
             </Accordion>
 
+            {/* ASISTENTE DE SISTEMAS TE */}
             <Accordion
             title="Asistente de Sistemas" 
             lugar="Tequila Enterprises - Guadalajara, Jal." 
@@ -42,6 +44,7 @@ export  function AccordionJobs(){
             </ul>
             </Accordion>
 
+            {/* GERENTE DE CUENTAS PRAGMATICA */}
             <Accordion 
             title="Gerente de Cuentas" 
             lugar="Pragmática - Guadalajara, Jal." 
